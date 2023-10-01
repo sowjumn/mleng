@@ -80,5 +80,7 @@ Pandas function to perform a join is .merge
 
 ### Delete a column
 `del df['id_x']`
- 
+
+### Slicing rows
+`df[start_index:end_index_not_inclusive]`
 
