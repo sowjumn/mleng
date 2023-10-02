@@ -84,3 +84,19 @@ Pandas function to perform a join is .merge
 ### Slicing rows
 `df[start_index:end_index_not_inclusive]`
 
+### Unique Cities
+`df["city"].unique()`
+
+### Count records in each city
+`df["city"].value_counts()`
+
+### Count non null unique values
+`df["category_0"].nunique()`
+
+### Apply/Run a function to each row of a column 
+
+`def convert_to_hello(x)`
+    `return (str(x) + 'hello')`
+
+`df['rating'].apply(convert_to_hello)`
+
