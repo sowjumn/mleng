@@ -100,3 +100,21 @@ Pandas function to perform a join is .merge
 
 `df['rating'].apply(convert_to_hello)`
 
+### Aggregate computations on the data
+
+You can pass a list of aggregate functions as arguments 
+
+You can use NumPy module's aggregate functions
+
+To get the sum, mean and standard deviation of the star ratings of each city 
+
+`import numpy as np`
+`df.groupby(['city']).agg([np.sum, np.mean, np.std])["stars"]`
+
+### Pivot table
+
+A pivot table creates a new table from the contents in the DataFrame
+
+pivot_city = pd.pivot_table(df, index=["city"])
+
+type(pivot_city ) is still a data frame 
