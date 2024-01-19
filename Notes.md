@@ -1,13 +1,16 @@
 ML Types: 
 
-Regression: Predicting continous values
-Classification: Predicting the item class/category 
-Clustering: Finding the structure of data
-Associations: Associating frequent co-occuring items/events
-Anomaly Detection: Discovering abnormal and unusual cases
-Sequence mining: 
+### Supervised Learning Algorithms:
+* Regression: Given an input x and output y, Predicting continous values from infinitely possible number of values
+* Classification: Predicting the item class/category 
 
-Installing Python and Jupyter Notebooks
+### Unsupervised Learning Alogorithms:
+* Clustering: Finding the structure in data
+* Associations: Associating frequent co-occuring items/events
+* Anomaly Detection: Discovering abnormal and unusual cases
+* Dimensionality Detection 
+
+### Installing Python and Jupyter Notebooks
 
 1. Use pyenv
 2. Install a particular python version `pyenv install 3.10.12`

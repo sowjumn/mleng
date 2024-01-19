@@ -117,4 +117,6 @@ A pivot table creates a new table from the contents in the DataFrame
 
 pivot_city = pd.pivot_table(df, index=["city"])
 
-type(pivot_city ) is still a data frame 
+type(pivot_city ) is still a data frame
+
+### To specify summary statistics other than average use aggfunc()
