@@ -2,6 +2,12 @@ ML Types:
 
 ### Supervised Learning Algorithms:
 * Regression: Given an input x and output y, Predicting continous values from infinitely possible number of values
+    * x = feature/input
+    * y = target/output
+    * m = number of training examples
+    * (x,y) = single training example
+    * (x(i),y(i)) = ith training example 
+    
 * Classification: Predicting the item class/category 
 
 ### Unsupervised Learning Alogorithms:
